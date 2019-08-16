@@ -98,5 +98,18 @@ This is a list of recent papers in the field of knowledge distillation. Although
 
 >  Proposed an adaptive importance learning scheme based on the Teacher's error for each pixel.
 
+**Incremental Learning**:
+- (16.06.29, ECCV 2016) [Learning without Forgetting](https://arxiv.org/abs/1606.09282)
+
+>  Proposed to use the soft targets of the images from the new task and the old model, in addition to the GT labels, to train the new model. By doing so, it decreases the forgetting of the previous tasks.
+
+- (18.11.20, CVPR 2019) [Learning without Memorizing](https://arxiv.org/abs/1811.08051)
+
+>  Proposed to use an attention loss in addition to the KD loss to further improve the transferred knowledge for incremental learning.
+
+- (19.03.29) [Incremental Learning with Unlabeled Data in the Wild](https://arxiv.org/abs/1903.12648)
+
+>  Instead of using the soft targets of the previous model and the GT label of the new task for training the new model, this paper proposed to use the soft targets of the previous model and a new model which is trained on the new task to train a final model.
+
 
 
