@@ -74,17 +74,17 @@ This is a list of recent papers in the field of knowledge distillation. Although
 
 ## Applications in other tasks
 
-**Metric Learning**:
+### Metric Learning:
 - (17.07.05, AAAI 2018) [DarkRank: Accelerating Deep Metric Learning via Cross Sample Similarities Transfer](https://arxiv.org/abs/1707.01220)
 
 >  Transfers similarity ranks between data examples instead of the hard labels of similarity and dissimilarity
 
-**Network Compression**: 
+### Network Compression: 
 - (18.02.15, ICLR 2018) [Model compression via distillation and quantization](https://arxiv.org/abs/1802.05668)
 
 >  Proposed Quantized Distillation which jointly leverages weight quantization and distillation in an iterative manner.
 
-**Object Detection**: 
+### Object Detection: 
 - (19.01.02) [Learning Efficient Detector with Semi-supervised Adaptive Distillation](https://arxiv.org/abs/1901.00366)
 
 >  Benefits from the teacher's knowledge to focus on the hard-to-learn samples predicted by teacher with low certainty and hard-to-mimic samples with a large gap between the teacher’s and the student’s predictions.
@@ -93,12 +93,12 @@ This is a list of recent papers in the field of knowledge distillation. Although
 
 > Proposed Knowledge Distillation between different detectors for improving speed and accuracy (different resolutions), and a new loss function to transfer knowledge for the regression parts.
 
-**Super-Resolution**: 
+### Super-Resolution: 
 - (18.06.05) [Adaptive Importance Learning for Improving Lightweight Image Super-resolution Network](https://arxiv.org/abs/1806.01576)
 
 >  Proposed an adaptive importance learning scheme based on the Teacher's error for each pixel.
 
-**Incremental Learning**:
+### Incremental Learning:
 - (16.06.29, ECCV 2016) [Learning without Forgetting](https://arxiv.org/abs/1606.09282)
 
 >  Proposed to use the soft targets of the images from the new task and the old model, in addition to the GT labels, to train the new model. By doing so, it decreases the forgetting of the previous tasks.
