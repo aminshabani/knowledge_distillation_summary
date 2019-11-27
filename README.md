@@ -3,8 +3,8 @@
 
 
 # Knowledge Distillation
-This is a list of recent papers in the field of knowledge distillation. Although there are great repositories in this regard like [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation) and [knowledge-distillation-papers
-](https://github.com/lhyfst/knowledge-distillation-papers), I am trying to make this one more comprehensive and updated, including summaries of each paper. There could be some mistakes in the details or summaries. Please let me know if you have any suggestions or edits.
+The following is a list of recent papers in the field of knowledge distillation. Although there are great repositories in this regard like [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation) and [knowledge-distillation-papers
+](https://github.com/lhyfst/knowledge-distillation-papers), I am trying to make this one more comprehensive and updated, including summaries of each paper. There could be mistakes in the details or summaries. Please let me know if you have any suggestions or edits.
 
 - [Questions on knowledge distillation for beginners](questions.md)
 - [Looking for the codes?](implementations.md)
@@ -109,7 +109,7 @@ This is a list of recent papers in the field of knowledge distillation. Although
 
 - (19.03.29) [Incremental Learning with Unlabeled Data in the Wild](https://arxiv.org/abs/1903.12648)
 
->  Instead of using the soft targets of the previous model and the GT label of the new task for training the new model, this paper proposed to use the soft targets of the previous model and a new model which is trained on the new task to train a final model.
+>  This paper proposed to use the soft targets of the previous model and a new model which is trained on the new task to train a final model instead of using the soft targets of the previous model and the GT label of the new task for training the new model, .
 
 
 
